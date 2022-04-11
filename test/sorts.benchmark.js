@@ -2,6 +2,7 @@ const { test } = require("reality-check")
 
 const heapsort = require("../lib/heap.sort")
 const quicksort = require("../lib/quick.sort")
+const { quicksortB } = require("../lib/quick.sort")
 const mergesort = require("../lib/merge.sort")
 const bubblesort = require("../lib/bubble.sort")
 const insertionsort = require("../lib/insertion.sort")
@@ -27,6 +28,15 @@ test("Comparing sorts", benchmark => {
             return quicksort(arrCopy)
         },
         "Quick sort"
+    )
+
+    benchmark(
+        () => {
+            const arrCopy = [...arr]
+            quicksortB(arrCopy)
+            return arrCopy
+        },
+        "Quick sort (option B)"
     )
 
     benchmark(
