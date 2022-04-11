@@ -1,0 +1,31 @@
+{
+  "name": "@arizonatribe/open-sesame",
+  "version": "1.0.0",
+  "description": "Pre-interview preparation for the engineer position at Open Sesame",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/*.test.js",
+    "benchmark": "rcheck test/*.benchmark.js",
+    "test:watch": "mocha test/*.test.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arizonatribe/open-sesame.git"
+  },
+  "keywords": [
+    "open",
+    "sesame",
+    "interview",
+    "preparation"
+  ],
+  "author": "David Nunez <arizonatribe@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/arizonatribe/open-sesame/issues"
+  },
+  "homepage": "https://github.com/arizonatribe/open-sesame#readme",
+  "devDependencies": {
+    "mocha": "^9.2.2",
+    "reality-check": "^1.0.0"
+  }
+}
