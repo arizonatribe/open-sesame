@@ -2,7 +2,8 @@
   "name": "@arizonatribe/open-sesame",
   "version": "1.0.0",
   "description": "Pre-interview preparation for the engineer position at Open Sesame",
-  "main": "lib/index.js",
+  "private": true,
+  "main": "lib/zoo.js",
   "scripts": {
     "test": "mocha test/*.test.js",
     "benchmark": "rcheck test/*.benchmark.js",
