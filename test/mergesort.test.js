@@ -1,5 +1,5 @@
 const assert = require("assert")
-const mergesort = require("../lib/merge.sort")
+const mergesort = require("../lib/prep/merge.sort")
 
 describe("merge sort", () => {
     it("Should sort a numeric array in ascending order", () => {

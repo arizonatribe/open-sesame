@@ -1,5 +1,5 @@
 const assert = require("assert")
-const quicksort = require("../lib/quick.sort")
+const quicksort = require("../lib/prep/quick.sort")
 
 describe("quick sort", () => {
     it("Should sort a numeric array in ascending order", () => {

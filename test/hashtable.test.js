@@ -1,5 +1,5 @@
 const assert = require("assert")
-const { HashTable } = require("../lib/hashtable")
+const { HashTable } = require("../lib/prep/hashtable")
 
 describe("Hash table tests", mocha => {
     it("Getter and Setter", () => {

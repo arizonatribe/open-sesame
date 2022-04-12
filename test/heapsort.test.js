@@ -1,5 +1,5 @@
 const assert = require("assert")
-const bubblesort = require("../lib/bubble.sort")
+const bubblesort = require("../lib/prep/bubble.sort")
 
 describe("Bubble sort", () => {
     it("Should sort a numeric array in ascending order", () => {

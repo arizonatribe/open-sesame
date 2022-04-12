@@ -1,5 +1,5 @@
 const assert = require("assert")
-const selectionsort = require("../lib/selection.sort")
+const selectionsort = require("../lib/prep/selection.sort")
 
 describe("Selection sort", () => {
     it("Should sort a numeric array in ascending order", () => {

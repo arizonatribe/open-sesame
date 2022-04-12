@@ -1,5 +1,5 @@
 const assert = require("assert")
-const heapsort = require("../lib/heap.sort")
+const heapsort = require("../lib/prep/heap.sort")
 
 describe("heap sort", () => {
     it("Should sort a numeric array in ascending order", () => {

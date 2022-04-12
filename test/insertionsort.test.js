@@ -1,5 +1,5 @@
 const assert = require("assert")
-const insertionsort = require("../lib/insertion.sort")
+const insertionsort = require("../lib/prep/insertion.sort")
 
 describe("Insertion sort", () => {
     it("Should sort a numeric array in ascending order", () => {

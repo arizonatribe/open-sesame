@@ -1,5 +1,5 @@
 const t = require("assert")
-const { Node, LinkedList } = require("../lib/linkedlist")
+const { Node, LinkedList } = require("../lib/prep/linkedlist")
 
 describe("Linked list", () => {
     let ll

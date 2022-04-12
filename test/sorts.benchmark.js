@@ -1,12 +1,12 @@
 const { test } = require("reality-check")
 
-const heapsort = require("../lib/heap.sort")
-const quicksort = require("../lib/quick.sort")
-const { quicksortB } = require("../lib/quick.sort")
-const mergesort = require("../lib/merge.sort")
-const bubblesort = require("../lib/bubble.sort")
-const insertionsort = require("../lib/insertion.sort")
-const selectionsort = require("../lib/selection.sort")
+const heapsort = require("../lib/prep/heap.sort")
+const quicksort = require("../lib/prep/quick.sort")
+const { quicksortB } = require("../lib/prep/quick.sort")
+const mergesort = require("../lib/prep/merge.sort")
+const bubblesort = require("../lib/prep/bubble.sort")
+const insertionsort = require("../lib/prep/insertion.sort")
+const selectionsort = require("../lib/prep/selection.sort")
 
 test("Comparing sorts", benchmark => {
     const arr = Array(10000)
