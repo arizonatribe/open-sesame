@@ -94,7 +94,14 @@ __Input__:
 __Output__: 
 
 ```javascript
-["fox,bug,chicken,grass,sheep", "chicken eats bug", "fox eats chicken", "sheep eats grass", "fox eats sheep", "fox"]
+[
+  "fox,bug,chicken,grass,sheep",
+  "chicken eats bug",
+  "fox eats chicken",
+  "sheep eats grass",
+  "fox eats sheep",
+  "fox"
+]
 ```
 
 __Input__: 
@@ -224,5 +231,8 @@ __Output__:
 ]
 ```
 
+# References
 
-Thanks to https://www.codewars.com/kata/the-hunger-games-zoo-disaster
+From [the-hunger-games-zoo-disaster](https://www.codewars.com/kata/the-hunger-games-zoo-disaster)
+
+Implemented during the interview at [this fiddle](https://jsfiddle.net/arizonatribe/v1darg4q/4/)
